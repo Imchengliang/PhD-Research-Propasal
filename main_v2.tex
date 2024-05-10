@@ -49,6 +49,8 @@
     tabsize=2
 }
 
+\newcommand{\MGcomment}[1]{\textcolor{blue}{#1}}
+
 \lstset{style=mystyle}
 \title{PhD Thesis Research Proposal \\ Department of Informatics, University of Oslo}
 \author{Liang Cheng}
@@ -59,6 +61,19 @@
 \begin{document}
 
 \maketitle
+
+\MGcomment{Some general comments here :-)}
+
+\MGcomment{Some of the references use an ‘ampersand’ character \& that has to be escaped with a backslash.}
+
+\MGcomment{The right way of referring to a figure or similar is Fig.~\ref{fig:overview}, look at the TeX code.  The tilde prevents a line break between the number and the abbreviation as well as making sure that the spacing is correct.}
+
+\MGcomment{Don’t use straight "double" or 'single' quotes.  There is a difference between left and right quotes and the easiest way is to use the correct unicode characters like ‘this’ or “this”}
+
+\MGcomment{There’s a space between a word and the cite command like this \cite{Forti20}. To avoid a line break, do this~\cite{Forti20} or this\ \cite{Forti20}}.
+
+\MGcomment{Also, please don’t change the page geometry.  You may awant to add options 11pt or 12pt to the document class though.}
+
 \section{Project title}
 Automated and Intelligent Data Flow Management for E-Waste 
 

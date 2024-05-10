@@ -1,1 +1,1 @@
-![overview](overview.jpg)
+![overview](overview.png)
